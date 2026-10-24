@@ -108,8 +108,16 @@ objdump -p gcc_llm_bridge.dll | findstr /i "DLL Name"
 
 ---
 
+## How to use
+
+copy all the dll file and paste it under the same directory with cplusplus1.exe in your gcc compiler.
+This was require by the #LLM deviative of the custom gcc version on my main page.
+fork and install the branch of my gcc version. and paste this on the cplusplus.exe.
+also download the `qwen2.5-coder-1.5b-instruct-q4_k_m.guff` from huggingface
+
+
+---
+
 ## License
 
 MIT
-
-```
